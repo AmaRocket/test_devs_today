@@ -1,4 +1,5 @@
-from rest_framework.permissions import SAFE_METHODS, BasePermission, IsAuthenticated
+from rest_framework.permissions import (SAFE_METHODS, BasePermission,
+                                        IsAuthenticated)
 
 
 class IsAuthenticatedOrCreate(IsAuthenticated):

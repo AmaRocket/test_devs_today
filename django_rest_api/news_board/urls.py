@@ -1,14 +1,7 @@
 from django.urls import path
 
-from .views import (
-    AuthorDetail,
-    AuthorList,
-    CommentDetail,
-    CommentList,
-    PostUpvote,
-    PostView,
-    SinglePostView,
-)
+from .views import (AuthorDetail, AuthorList, CommentDetail, CommentList,
+                    PostUpvote, PostView, SinglePostView)
 
 app_name = "news_board"
 
