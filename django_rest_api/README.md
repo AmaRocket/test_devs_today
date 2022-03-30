@@ -35,18 +35,22 @@ docker-compose up
 
 
 <h3>Heroku</h3>
-<h4>Posts:</h4>
+<h4>Posts</h4>
+
 ```
 https://testnewsboard.herokuapp.com/api/posts/
 ```
+
 <h4>Comments</h4>
 ```
 https://testnewsboard.herokuapp.com/api/comments/
 ```
+
 <h4>Authors</h4>
 ```
 https://testnewsboard.herokuapp.com/api/authors/
 ```
+
 <h4>Upvotes</h4>
 ```
 https://testnewsboard.herokuapp.com/api/upvotes/<int:pk>
