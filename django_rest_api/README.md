@@ -23,7 +23,9 @@ source env/bin/activate
 ```
 
 <h3>NewsBoardAPI is located on</h3>
+
 ```
+
 http://localhost:8000/api/
 ```
 
@@ -42,21 +44,25 @@ https://testnewsboard.herokuapp.com/api/posts/
 ```
 
 <h4>Comments</h4>
+
 ```
 https://testnewsboard.herokuapp.com/api/comments/
 ```
 
 <h4>Authors</h4>
+
 ```
 https://testnewsboard.herokuapp.com/api/authors/
 ```
 
 <h4>Upvotes</h4>
+
 ```
 https://testnewsboard.herokuapp.com/api/upvotes/<int:pk>
 ```
 
 <h3>Postman collections</h3>
+
 ```
 https://www.getpostman.com/collections/42c66306badeb35d2bf9
 ```
