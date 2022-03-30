@@ -7,9 +7,9 @@ services:
     ports:
       - 8000:8000
     env_file:
-      - news_board/.env
+      - django_rest_api/.env
     volumes:
-      - .:/news_board
+      - .:/django_rest_api
     depends_on:
       - db
     restart: always
@@ -18,9 +18,9 @@ services:
     build: .
     command: celery -A news_board worker -l info
     volumes:
-      - .:/news_board
+      - .:/
     links:
-      - redis
+      - redisnews_board
     depends_on:
       - web
       - db
@@ -50,5 +50,5 @@ services:
   db:
     image: postgres:13-alpine
     env_file:
-      - news_board/.env
+      - django_rest_api/.env
     restart: always
